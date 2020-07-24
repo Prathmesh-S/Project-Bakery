@@ -1,0 +1,227 @@
+.Navigation {
+display: inline;
+font-size: x-large ;
+}
+
+.links {
+    text-decoration: solid;
+    font-weight: bold;
+    margin-left: 30px;
+    color:green;
+    font-family: 'Patua One', cursive;
+    
+}
+
+.Center {
+    text-align: left;
+}
+
+#home {
+    margin-left: 0;
+}
+#home:hover {
+    color:black
+}
+
+#pizza:hover {
+    color:black
+}
+
+#bread:hover {
+    color:black
+}
+
+#hours:hover {
+    color:black
+}
+
+#about:hover {
+    color:black
+}
+
+#cards:hover {
+    color:black
+}
+
+#info:hover {
+    color:black
+}
+
+
+nav {
+    background-color:white;
+    width:100%;
+    left:0px;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    padding:25px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+   
+}
+
+.MainText {
+display:inline;
+padding-left: 30px;
+grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    top:0px;
+    font-weight: bold;
+   
+    font-family: 'Merienda One', cursive;
+    font-size: 50px;
+    line-height: 23px;
+    
+    
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 130px 800px ;
+    grid-template-rows: 150px 5px;
+    background-color:white;
+    grid-column-gap:30px;
+    top:0;
+}
+
+.Item {
+    display:inline-block;
+    margin-left: 30px;
+}
+
+.container2 {
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+}
+
+
+#Logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.motto {
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+
+hr {
+    height:3px;
+    background-color: black;
+    margin:0px;
+}
+
+
+#Topline {
+    top:0;
+}
+
+
+.Topic {
+    padding-left: 80px;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+   
+}
+
+#News1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+    max-width: 500px;
+    padding-left:50px;
+  
+    
+    
+}
+
+.Date {
+    font-size: 15px;
+    text-decoration: underline;
+    color:green
+}
+
+
+.Storefront {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.address {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+.Fineprint {
+padding-left: 80px;
+font-size: 18px;
+}
+
+.Pizzatable {
+    padding-left:px;
+    font-size: 22px;
+    width:90%;
+    
+    
+    
+}
+
+.Month {
+    padding-left: 80px;
+    text-decoration: underline;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+      }
+
+div.Pizzatable {
+    padding-left: 75px;
+}
+
+.Datenumber { 
+text-align: center;
+text-decoration: underline;
+vertical-align:top ;
+}
+
+td {
+    text-align: center;
+}
+
+.BreadItems {
+    padding-left: 80px;
+    font-size: 23px;
+    font-weight: bold;
+    
+    
+}
+
+.BreadType {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.Price {
+    display:inline;
+    text-align: center;
+    font-weight: normal;
+
+}
